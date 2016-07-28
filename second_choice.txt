@@ -1,3 +1,11 @@
- puts "What is behind the door?"
- answer = gets.chomp
- puts  
+puts "Open the door behind do you think is the dragon"
+ number = gets.chomp.to_i
+ if number <= 2  
+	puts "You are wrong :( Try again"
+number = gets.chomp.to_i	
+elsif number == 3
+	puts "Yes! Hurry you are burning!!"
+else 
+	puts "Try again, we have only three doors"
+number = gets.chomp.to_i	
+end
